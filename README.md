@@ -5,3 +5,11 @@ Este projeto foi originalmente desenvolvido como parte de um teste para uma star
 Para tornar o projeto público sem comprometer o teste real da empresa, algumas alterações foram feitas no conjunto de dados e nas informações fornecidas. No entanto, o objetivo geral do projeto e os métodos utilizados foram mantidos.
 
 O conjunto de dados utilizado neste projeto inclui informações sobre o tamanho da casa, o número de quartos e banheiros, o tamanho do terreno, o número de andares e outras características. 
+
+
+## Run quickly
+1. `pip install -r requirements.txt`
+2. `jupyter notebook` → abrir `CaseStartup_ipynbS.ipynb`
+3. Para rodar o exemplo serializado: `python predict_example.py`
+
+Resultado: gráfico `figures/pred_vs_true.png` e `models/pipeline.joblib`
