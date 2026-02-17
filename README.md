@@ -1,15 +1,33 @@
-# Predição de Preços de Casas
+# 🏠 Previsão de Preços de Imóveis
 
-Este projeto foi originalmente desenvolvido como parte de um teste para uma startup brasileira. O objetivo era criar um modelo de machine learning para prever os preços das casas baseado em um conjunto de dados fornecido pela empresa.
+Esse foi meu primeiro projeto de machine learning, feito como parte de um processo seletivo para uma startup brasileira. Publiquei aqui com alguns dados modificados para não comprometer o teste original.
 
-Para tornar o projeto público sem comprometer o teste real da empresa, algumas alterações foram feitas no conjunto de dados e nas informações fornecidas. No entanto, o objetivo geral do projeto e os métodos utilizados foram mantidos.
+O objetivo era prever o preço de imóveis com base em características como tamanho, número de quartos, banheiros, andares, etc.
 
-O conjunto de dados utilizado neste projeto inclui informações sobre o tamanho da casa, o número de quartos e banheiros, o tamanho do terreno, o número de andares e outras características. 
+## O que tem aqui
 
+- `house_price_prediction.ipynb` — notebook com toda a análise e modelagem
+- `house_sales.csv` — dataset com os dados dos imóveis (modificado)
 
-## Run quickly
-1. `pip install -r requirements.txt`
-2. `jupyter notebook` → abrir `CaseStartup_ipynbS.ipynb`
-3. Para rodar o exemplo serializado: `python predict_example.py`
+## Como rodar
 
-Resultado: gráfico `figures/pred_vs_true.png` e `models/pipeline.joblib`
+1. Clone o repositório
+2. Instale as dependências:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Abra o notebook:
+   ```bash
+   jupyter notebook house_price_prediction.ipynb
+   ```
+
+## Tecnologias usadas
+
+- Python
+- Pandas / NumPy
+- Scikit-learn
+- Matplotlib / Seaborn
+
+## Contexto
+
+Na época eu estava dando meus primeiros passos em ciência de dados. O projeto foi feito com prazo curto e foco em entregar algo funcional. Hoje eu faria algumas coisas diferente, mas optei por manter a essência original.
